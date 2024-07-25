@@ -110,4 +110,10 @@ function mostraAlternativas() {
         mostraPergunta();
     }
 
+    function mostraresultado(){
+      caixaperguntas.textcontent= "em 2049...";   
+    textoResultado.textcontent= historiafinal;
+    caixaalternativas.textContent= "";
+    }
+
 mostraPergunta()
